@@ -15,12 +15,18 @@
 }
 input[type=range]::-webkit-slider-thumb {
 background-color: grey;
+height: 2em;
+width: 2em;
 }
 input[type=range]::-moz-range-thumb {
 background-color: grey;
+height: 2em;
+width: 2em;
 }
 input[type=range]::-ms-thumb {
 background-color: grey;
+height: 2em;
+width: 2em;
 }
 input[type=range] + .thumb {
 background-color: #dedede;
