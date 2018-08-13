@@ -277,8 +277,8 @@ function render() {
 	if(acolyteList.length == 0) {
 		var output = [];
 		output.push('<div class="card grey lighten-4 hoverable">');
-		output.push('	<div class="card-content flow-text red-text">');
-		output.push('		No Acolytes are around yet. Soon™');
+		output.push('	<div class="card-content flow-text green-text">');
+		output.push('		The Acolyte event has ended. Thank you for playing!');
 		output.push('	</div>');
 		output.push('</div>');
 		
@@ -395,7 +395,6 @@ function startTimer(targetDiv, epoch, removeOnEnd) {
 
 		targetDiv.text(days + "d " + hours + "h " + minutes + "m " + seconds + "s");
 
-		// If the count down is finished, write some text
 		if (distance < 0) {
 			clearInterval(this);
 			removeOnEnd.remove();
