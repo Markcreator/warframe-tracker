@@ -8,13 +8,6 @@ main {
 	flex: 1 0 auto;
 }
 
-.platform-navigation a {
-	display: block;
-	padding: .82rem 0 .656rem 0;
-	font-size: 1.64rem;
-	line-height: 110%;
-}
-
 .page-footer {
 	padding-top: 0;
 }
@@ -27,11 +20,10 @@ nav ul li a {
 	color: white;
 }
 
-*:not(.dropdown-content):not(.material-tooltip):not(.backdrop) {
+*:not(.dropdown-content):not(.material-tooltip):not(.backdrop):not(.thumb) {
 	-moz-transition: all 0.25s ease;
 	-webkit-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
 	-ms-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 }
-

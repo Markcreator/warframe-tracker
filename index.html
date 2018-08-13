@@ -46,7 +46,24 @@
 					<ul id="nav-mobile-left" class="left">
 						<li><a id="night" class="amber tooltipped" data-position="bottom" data-delay="50" data-tooltip="Night Mode"><i id="nightIcon" class="material-icons">brightness_5</i></a></li>
 						<li><a id="notifications" class="red tooltipped" data-position="bottom" data-delay="50" data-tooltip="Notifications"><i class="material-icons">message</i></a></li>
-						<li><a id="sounds" class="red tooltipped" data-position="bottom" data-delay="50" data-tooltip="Notification Sounds"><i id="soundsIcon" class="material-icons">volume_off</i></a></li>
+						
+						<li><a id="sounds" class="grey darken-1 dropdown-button" data-beloworigin='true' data-activates='dropdown-sound'><i class="material-icons">volume_up</i></a></li>
+						<ul id='dropdown-sound' class='dropdown-content'>
+							<li class="range grey lighten-4">
+								<p class="range-field">
+									<input type="range" id="sound" min="0" max="100" />
+								</p>
+							</li>
+						</ul>
+						
+						<li><a id="platform" class="grey dropdown-button" data-beloworigin='true' data-activates='dropdown-platform'>PC</a></li>
+						<ul id='dropdown-platform' class='dropdown-content'>
+							<li>
+								<a class='platform grey lighten-4 grey-text'>PC</a>
+								<a class='platform grey lighten-4 grey-text'>PS4</a>
+								<a class='platform grey lighten-4 grey-text'>XBOX</a>
+							</li>
+						</ul>
 					</ul>
 				</div>
 			</nav>
@@ -54,55 +71,15 @@
 		
 		<main class="container">
 			<br/>
-			<div class="platform-navigation">
-				<div class="row">
-					<div class="col l4 s12">
-						<a class="card grey lighten-4 hoverable center-align waves-effect" href="?platform=pc" id="pc">
-							PC
-						</a>
-					</div>
-					<div class="col l4 s12">
-						<a class="card grey lighten-4 hoverable center-align waves-effect" href="?platform=ps4" id="ps4">
-							PS4
-						</a>
-					</div>
-					<div class="col l4 s12">
-						<a class="card grey lighten-4 hoverable center-align waves-effect" href="?platform=xbox" id="xbox">
-							Xbox
-						</a>
-					</div>
-				</div>
-			</div>
 		
 			<div class="card grey lighten-4 hoverable">
 				<div class="card-content">
 					<p>
 						<div class="row">
-							<div class="col l8 m6 s12">
+							<div class="col l12 m12 s12">
 								<center>
-									<span class="red-text flow-text">Draak.Online is considering to expand its offerings!</span>
-									<br/><br/>
-									<a class="btn red hoverable waves-effect" target="_blank" href="https://www.strawpoll.me/16257241">Vote</a>
-								</center>
-								
-								<br/>
-								<hr/>
-								<br/>
-							
-								Tired of sitting in front of your PC, anxiously updating the dodgy Warframe navigation menu in an attempt to stay up to date with the Acolytes?
-								<br/><br/>
-								Acolyte Tracker will automatically fetch the latest in Acolyte developments straight to your browser, on any device!
-								<br/>
-								Get notified instantly with browser and sound notifications, enjoy our night mode for reduced eye strain, and experience the fastest updating tracker around, so that you can get back to just enjoying the event.
-								<br/><br/>
-							</div>
-							
-							<div class="col l4 m6 s12">
-								<center style="position: relative;">
-									<img class="giveaway" src="https://vignette.wikia.nocookie.net/warframe/images/9/92/ArgonScopeMod.png/revision/latest?cb=20171007135230" />
-									<h3 class="giveaway-text green-text">Giveaway!</h3>
-									<br/>
-									<a class="btn green hoverable waves-effect" target='_blank' href="https://gleam.io/e5WYi/acolytedraakonlines-argon-scope-giveaway-pc" rel="nofollow">Enter</a>
+									<span class="green-text flow-text"><b>Welcome to the Warframe Tracker open beta!</b></span>
+									<p>Feel free to report any problems or suggest new features on our <a class="blue-text" target='_blank' href="https://discord.gg/XjpGdAQ">Discord</a>.</p>
 								</center>
 							</div>
 						</div>
@@ -116,7 +93,7 @@
 			<div class="card grey lighten-4 hoverable">
 				<center class="card-content flow-text">
 					<p id="counter"></p>
-					<div id="loader" class="progress grey">
+					<div id="loader" class="progress grey darken-2">
 						<div class="indeterminate black"></div>
 					</div>
 				</center>

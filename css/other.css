@@ -2,6 +2,33 @@
 	border-radius: 20px 40px;
 }
 
+.range {
+	overflow: hidden;
+}
+.range-field {
+	margin: 0;
+	margin-top: 2em;
+}
+#sound {
+	margin: 0;
+	border: 0;
+}
+input[type=range]::-webkit-slider-thumb {
+background-color: grey;
+}
+input[type=range]::-moz-range-thumb {
+background-color: grey;
+}
+input[type=range]::-ms-thumb {
+background-color: grey;
+}
+input[type=range] + .thumb {
+background-color: #dedede;
+}
+input[type=range] + .thumb.active .value {
+color: grey;
+}
+
 #timers .card-content {
 	width: 100%;
 }
