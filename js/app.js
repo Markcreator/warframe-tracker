@@ -1,8 +1,6 @@
 var useTestData = false;
 
 // Data
-var nodes;
-var worldState;
 var currentAcolytes = {};
 
 var acolytes = {
@@ -144,10 +142,10 @@ for(var acolyte in acolytes) {
 	}
 }
 
-// Fetch data from URLs and start update loop	
+// Fetch data from URLs and start update loop
 getJSON(solNodeURL, function(nodeJSON) {
 	nodes = nodeJSON;
-
+	
 	acolyteUpdate();
 });
 
@@ -332,17 +330,31 @@ function render() {
 
 // UI refreshing behaviour
 function acolyteUpdate() {
+	updateWorldState(function() {
+		loopCountdownUpdate(30, acolyteUpdate);
+	});
+}
+
+function updateWorldState(callback) {
 	$("#loader").show();
 	$("#counter").hide();
 	
-	getJSON(worldStateURL, function(worldStateJSON) {
+	if(!worldStateURLs[platform]) {
+		$("#counter").text("That platform does not exist.");
+		$("#loader").hide();
+		$("#counter").show();
+		return;
+	}
+	
+	getJSON(worldStateURLs[platform], function(worldStateJSON) {
 		worldState = worldStateJSON;
 
 		render();
 		
 		$("#loader").hide();
-		loopCountdownUpdate(30, acolyteUpdate);
 		$("#counter").show();
+		
+		callback();
 	});
 }
 

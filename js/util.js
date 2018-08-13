@@ -32,18 +32,9 @@ if(!platform) {
 }
 $(".platform").click(function() {
 	setPlatform($(this).text());
-	render();
+	updateWorldState();
 });
 setPlatform(platform);
-
-// URLs
-var worldStateURLs = {
-	"pc": "http://content.warframe.com/dynamic/worldState.php",
-	"ps4": "http://content.ps4.warframe.com/dynamic/worldState.php",
-	"xbox": "http://content.xb1.warframe.com/dynamic/worldState.php"
-};
-var worldStateURL = worldStateURLs[platform];
-var solNodeURL = "https://raw.githubusercontent.com/WFCD/warframe-worldstate-data/master/data/solNodes.json";
 
 // Audio feedback
 var audio = new Audio('sound/sound.mp3');
