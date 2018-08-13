@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./?installed=true",
+  "start_url": ".",
   "theme_color": "#333",
   "display": "standalone",
   "background": "#333"
