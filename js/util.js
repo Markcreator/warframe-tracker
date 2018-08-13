@@ -71,7 +71,7 @@ $("#night").click(function() {
 		$("#nightIcon").text("brightness_3");
 		localStorage.night = true;
 		
-		$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo").addClass("darken-4").not("li a").addClass("grey-text");
+		$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo, footer li").addClass("darken-4").not("li a").addClass("grey-text");
 		$("img").addClass("darkImg");
 		
 	} else {
@@ -80,7 +80,7 @@ $("#night").click(function() {
 		$("#nightIcon").text("brightness_5");
 		delete localStorage.night;
 		
-		$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo").removeClass("darken-4").not("li a").removeClass("grey-text");
+		$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo, footer li").removeClass("darken-4").not("li a").removeClass("grey-text");
 		$("img").removeClass("darkImg");
 	}
 });
