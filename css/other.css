@@ -1,5 +1,6 @@
 .card {
 	border-radius: 10px 20px;
+	border-bottom: 2px solid grey;
 }
 
 .range {
