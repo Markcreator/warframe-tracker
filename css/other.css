@@ -8,6 +8,10 @@
 .collapsible-body {
 	border: 0;
 }
+.collapsible-header {
+	border: 0;
+	background-color: inherit;
+}
 
 .range {
 	overflow: hidden;

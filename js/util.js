@@ -71,7 +71,7 @@ function loadNight() {
 	$("#nightIcon").text("brightness_3");
 	localStorage.night = true;
 		
-	$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo, footer li").addClass("darken-4").not("li a").addClass("grey-text");
+	$("body, .nav-wrapper, .card, a, li, .collapsible-header").not(".btn, .brand-logo, footer li").addClass("darken-4").not("li a").addClass("grey-text");
 	$("img").addClass("darkImg");
 }
 function loadDay() {
@@ -80,7 +80,7 @@ function loadDay() {
 	$("#nightIcon").text("brightness_5");
 	delete localStorage.night;
 		
-	$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo, footer li").removeClass("darken-4").not("li a").removeClass("grey-text");
+	$("body, .nav-wrapper, .card, a, li, .collapsible-header").not(".btn, .brand-logo, footer li").removeClass("darken-4").not("li a").removeClass("grey-text");
 	$("img").removeClass("darkImg");
 }
 if(localStorage.night) {
