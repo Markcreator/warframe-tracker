@@ -112,6 +112,30 @@ if (!("Notification" in window)) {
 	}
 }
 
+// Notification behaviour
+function note(icon, body) {
+	var title = "Warframe Tracker";
+	var options = {
+		icon: icon,
+		body: body
+	};
+	
+	if (!("Notification" in window)) {
+		return;
+	
+	} else if (Notification.permission === "granted") {
+		var notification = new Notification(title, options);
+	
+	} else if (Notification.permission !== 'denied') {
+		Notification.requestPermission(function (permission) {
+			if (permission === "granted") {
+				var notification = new Notification(title, options);
+			}
+		});
+	}
+	// Else no notifications
+}
+
 // Helpers
 
 function escapeHtml(unsafe) {
@@ -122,6 +146,3 @@ function escapeHtml(unsafe) {
 		 .replace(/"/g, "&quot;")
 		 .replace(/'/g, "&#039;");
 }
-
-Object.prototype.id = function() { return this._id.$oid; }
-Object.prototype.getTime = function() { return new Date(parseInt(this.$date.$numberLong)); }

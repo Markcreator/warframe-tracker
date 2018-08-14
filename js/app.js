@@ -1,7 +1,7 @@
 
-// Function to render all Acolyte cards
+// Function to render
 function render() {
-	$("#acolytes").empty();
+	$("#data").empty();
 	currentAcolytes = {};
 	
 	var acolyteList = worldState.PersistentEnemies;
@@ -23,7 +23,7 @@ function render() {
 				audio.play();
 			}
 			if(localStorage.notifications) {
-				notifyAcolyte(acoName, name, disc, location);
+				note('img/' + acoName + '.png', name.toUpperCase() + "'s location is now:\n" + location);
 			}
 		}
 			
@@ -62,14 +62,14 @@ function render() {
 		output.push('	</div>');
 		output.push('</div>');
 		
-		$("#acolytes").append(output.join(""));
+		$("#data").append(output.join(""));
 		
 	} else {
 		for(var x = 0; x < acolyteOrder.length; x++) {
 			var name = acolyteOrder[x];
 			
 			if(currentAcolytes[name]) {
-				$("#acolytes").append(currentAcolytes[name]);
+				$("#data").append(currentAcolytes[name]);
 			}
 		}
 	}
@@ -80,29 +80,4 @@ function render() {
 	if(localStorage.night) {
 		loadNight();
 	}
-}
-
-// Notification behaviour
-function notifyAcolyte(acoName, name, disc, location) {
-	var title = "Acolyte Tracker";
-	var options = {
-		icon: 'img/' + acoName + '.png',
-		body: name.toUpperCase() + "'s location is now:\n" + location
-	};
-	
-	if (!("Notification" in window)) {
-		return;
-	
-	} else if (Notification.permission === "granted") {
-		var notification = new Notification(title, options);
-	
-	} else if (Notification.permission !== 'denied') {
-		Notification.requestPermission(function (permission) {
-			if (permission === "granted") {
-				var notification = new Notification(title, options);
-			}
-		});
-	}
-	
-	// Else no notifications
 }
