@@ -96,10 +96,12 @@ function render() {
 		rewards = [];
 		rewards.push(ale.MissionInfo.missionReward.credits + " Credits");
 		var items = ale.MissionInfo.missionReward.items;
-		for(var y = 0; y < items.length; y++) {
-			var item = items[y];
-			var name = item.split("/")[item.split("/").length-1];
-			rewards.push(name);
+		if(items) {
+			for(var y = 0; y < items.length; y++) {
+				var item = items[y];
+				var name = item.split("/")[item.split("/").length-1];
+				rewards.push(name);
+			}
 		}
 		
 		var output = [];
