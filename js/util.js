@@ -122,3 +122,6 @@ function escapeHtml(unsafe) {
 		 .replace(/"/g, "&quot;")
 		 .replace(/'/g, "&#039;");
 }
+
+Object.prototype.id = function() { return this._id.$oid; }
+Object.prototype.getTime = function() { return new Date(parseInt(this.$date.$numberLong)); }
