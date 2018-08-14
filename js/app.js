@@ -6,6 +6,7 @@ for(var i = 0; i < tabs.length; i++) {
 
 // Function to render
 function render() {
+	// Acolyte
 	currentAcolytes = {};
 	$("#acolytes .content").empty();
 	
@@ -77,6 +78,42 @@ function render() {
 				$("#acolytes .content").append(currentAcolytes[name]);
 			}
 		}
+	}
+	
+	// Alerts
+	$("#alerts .content").empty();
+	
+	var alertList = worldState.Alerts;
+	for(var i = 0; i < alertList.length; i++) {
+		var ale = alertList[i];
+		
+		var location = nodes[ale.MissionInfo.location].value;
+		var level = ale.MissionInfo.minEnemyLevel + "-" + ale.MissionInfo.maxEnemyLevel;
+		var type = ale.MissionInfo.missionType;
+		type = type.substring(type.indexOf("_")+1);
+		var faction = ale.MissionInfo.faction;
+		faction = faction.substring(faction.indexOf("_")+1);
+		rewards = [];
+		rewards.push(ale.MissionInfo.missionReward.credits + " Credits");
+		var items = ale.MissionInfo.missionReward.items;
+		for(var y = 0; y < items.length; y++) {
+			var item = items[y];
+			var name = item.split("/")[item.split("/").length-1];
+			rewards.push(name);
+		}
+		
+		var output = [];
+		output.push('<div class="card grey lighten-4 horizontal hoverable">');
+		output.push('		<div class="card-content flow-text">');
+		output.push("			<b>" + location + "</b> Level " + level);
+		output.push("			<br/>");
+		output.push("			<b>" + type + " - " + faction + "</b>");
+		output.push("			<br/>");
+		output.push("			<b>Rewards:</b> " + rewards.join(" + "));
+		output.push('		</div>');
+		output.push('</div>');
+		
+		$("#alerts .content").append(output.join(""));
 	}
 	
 	// Load plugins
