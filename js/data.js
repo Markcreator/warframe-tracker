@@ -1,3 +1,12 @@
+var tabs = [
+	"Acolytes",
+	"Alerts",
+	"Invasions",
+	"Syndicates",
+	"Void Fissures",
+	"Sorties"
+];
+
 // URLs
 var worldStateURLs = {
 	"pc": "http://content.warframe.com/dynamic/worldState.php",

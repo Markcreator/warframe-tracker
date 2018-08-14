@@ -1,8 +1,13 @@
+for(var i = 0; i < tabs.length; i++) {
+	var tab = tabs[i];
+	
+	$("#data").append(buildTab(tab));
+}
 
 // Function to render
 function render() {
-	$("#data").empty();
 	currentAcolytes = {};
+	$("#acolytes .content").empty();
 	
 	var acolyteList = worldState.PersistentEnemies;
 	for(var i = 0; i < acolyteList.length; i++) {
@@ -62,18 +67,16 @@ function render() {
 		output.push('	</div>');
 		output.push('</div>');
 		
-		$("#data").append(output.join(""));
+		$("#acolytes .content").append(output.join(""));
 		
 	} else {
 		for(var x = 0; x < acolyteOrder.length; x++) {
 			var name = acolyteOrder[x];
 			
 			if(currentAcolytes[name]) {
-				$("#data").append(currentAcolytes[name]);
+				$("#acolytes .content").append(currentAcolytes[name]);
 			}
 		}
-		
-		$("#data").append(buildTab("test"));
 	}
 	
 	// Load plugins
