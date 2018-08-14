@@ -146,3 +146,6 @@ function escapeHtml(unsafe) {
 		 .replace(/"/g, "&quot;")
 		 .replace(/'/g, "&#039;");
 }
+
+function getId(a) { return a._id.$oid; }
+function getTime(a) { return new Date(parseInt(a.$date.$numberLong)); }

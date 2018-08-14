@@ -11,14 +11,18 @@ $(function() {
 	$.getScript("js/util.js", function() {
 		console.log("Utils loaded.");
 		
-		$.getScript("js/data.js", function() {
-			console.log("Data loaded.");
+		$.getScript("js/ui.js", function() {
+			console.log("UI loaded.");
 			
-			$.getScript("js/timer.js", function() {
-			console.log("Timer loaded.");
-			
-				$.getScript("js/app.js", function() {
-					console.log("App loaded.");
+			$.getScript("js/data.js", function() {
+				console.log("Data loaded.");
+				
+				$.getScript("js/timer.js", function() {
+				console.log("Timer loaded.");
+				
+					$.getScript("js/app.js", function() {
+						console.log("App loaded.");
+					});
 				});
 			});
 		});

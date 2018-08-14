@@ -1,6 +1,12 @@
-.card {
+.card, .collapsible, .collapsible-header {
 	border-radius: 10px 20px;
-	border-bottom: 2px solid grey;
+}
+
+.collapsible {
+	border: 0;
+}
+.collapsible-body {
+	border: 0;
 }
 
 .range {

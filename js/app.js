@@ -72,6 +72,8 @@ function render() {
 				$("#data").append(currentAcolytes[name]);
 			}
 		}
+		
+		$("#data").append(buildTab("test"));
 	}
 	
 	// Load plugins
