@@ -1,9 +1,12 @@
-// Load tooltips
-$('.tooltipped').tooltip();
-$('.dropdown-button').dropdown({
-	constrainWidth: false
-});
-	
+// Load plugins
+function loadPlugins() {
+	$('.tooltipped').tooltip();
+	$('.dropdown-button').dropdown({
+		constrainWidth: false
+	});
+	$('.collapsible').collapsible();
+}
+
 // Register service worker for PWA support
 if("serviceWorker" in navigator) {
 	navigator.serviceWorker.register("js/service-worker.js").then(function(registration){

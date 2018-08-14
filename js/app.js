@@ -1,59 +1,10 @@
 
-// Timers
-for(var acolyte in acolytes) {
-	var json = acolytes[acolyte];
-	var name = json.name;
-	var mods = json.mods;
-	
-	if(new Date().getTime() < json.arrival) {			
-		var output = [];
-		output.push('<div id="' + name + '-timer-card" class="card grey lighten-4 horizontal hoverable">');
-
-		output.push('<div class="card-content flow-text">');
-		output.push("	<b>" + name.toUpperCase() + '</b> arrives in: <span id="' + name + '-timer"></span>');
-		output.push("			<a class='dropdown-button btn waves-effect waves-light grey darken-3 grey-text right' data-beloworigin='true' data-activates='dropdown-" + name + "'>Drops</a>");
-		output.push("			<ul id='dropdown-" + name + "' class='dropdown-content'>");
-		var x = 0;
-		for(var x = 0; x < mods.length; x++) {
-		output.push("				<li><a target='_blank' href='http://warframe.wikia.com/wiki/" + mods[x].split(" (")[0].replace(" ", "_") + "' class='grey lighten-4 grey-text text-darken-1'>" + mods[x] + "</a></li>");
-		}
-		output.push("			</ul");
-		output.push('</div>');
-	
-		$("#timers").append(output.join(""));
-		
-		startTimer($("#" + name + "-timer"), json.arrival, $("#" + name + "-timer-card"));
-	}
-}
-
-// Hidden Acolyte card builder
-function hiddenAcolyte(name) {
-	var output = [];
-	output.push('<div id="acolyte-' + name + '" class="card grey lighten-4 horizontal hoverable">');
-
-	output.push('<div class="card-content flow-text">');
-	output.push("	<b>" + name.toUpperCase() + "</b>	<a id='show-" + name + "' name='" + name + "' class='pointer'>(Show)</a>");
-	output.push('</div>');
-	
-	return output.join("");
-}
-
 // Function to render all Acolyte cards
 function render() {
 	$("#acolytes").empty();
 	currentAcolytes = {};
 	
 	var acolyteList = worldState.PersistentEnemies;
-	// Test data
-	if(useTestData) {
-		acolyteList = [{
-			Icon: "/StrikerAcolyte.png",
-			Discovered: false,
-			Region: 4,
-			HealthPercent: 0.123,
-			LastDiscoveredLocation: "SolNode24"
-		}];
-	}
 	for(var i = 0; i < acolyteList.length; i++) {
 		var aco = acolyteList[i];
 		
@@ -68,15 +19,11 @@ function render() {
 		if(acolytes[acoName].disc != disc) {
 			acolytes[acoName].disc = disc;
 			
-			if($("#sounds").hasClass("green")) {
-				if(!localStorage["hide-" + name]) {
-					audio.play();
-				}
+			if(localStorage.sound && localStorage.sound > 0) {
+				audio.play();
 			}
-			if($("#notifications").hasClass("green")) {
-				if(!localStorage["hide-" + name]) {
-					notifyAcolyte(acoName, name, disc, location);
-				}
+			if(localStorage.notifications) {
+				notifyAcolyte(acoName, name, disc, location);
 			}
 		}
 			
@@ -87,7 +34,7 @@ function render() {
 		output.push('	</div>');
 		output.push('	<div class="card-stacked">');
 		output.push('		<div class="card-content flow-text">');
-		output.push("			<b>" + name.toUpperCase() + "</b>	<a id='hide-" + name + "' name='" + name + "' class='pointer'>(Hide)</a>	<a class='right' target='_blank' href='http://warframe.wikia.com/wiki/" + name + "'>Wiki page</a>");
+		output.push("			<b>" + name.toUpperCase() + "</b> <a class='right' target='_blank' href='http://warframe.wikia.com/wiki/" + name + "'>Wiki page</a>");
 		output.push('			<div class="progress grey darken-2"> <div class="determinate health" style="width: ' + (health * 100) + '%"></div> </div>');
 		output.push("			<span class='red-text'><b>Health:</b> " + (health * 100).toFixed(2) + "%</span>");
 		output.push("			<br/>");
@@ -118,43 +65,17 @@ function render() {
 		$("#acolytes").append(output.join(""));
 		
 	} else {
-		function show() {
-			var name = $(this).attr("name");
-						
-			delete localStorage["hide-" + name];
-			render();
-		}
-		
-		function hide() {
-			var name = $(this).attr("name");
-						
-			localStorage["hide-" + name] = true;
-			render();
-		}
-		
 		for(var x = 0; x < acolyteOrder.length; x++) {
 			var name = acolyteOrder[x];
 			
-			if(typeof(currentAcolytes[name]) != 'undefined') {
-				if(!localStorage["hide-" + name]) {
-					$("#acolytes").append(currentAcolytes[name]);
-				
-					$("#hide-" + name).click(hide);
-					
-				} else {
-					$("#acolytes").append(hiddenAcolyte(name));
-					
-					$("#show-" + name).click(show);
-				}
+			if(currentAcolytes[name]) {
+				$("#acolytes").append(currentAcolytes[name]);
 			}
 		}
 	}
 	
-	// Load dropdowns
-	$('.dropdown-button').dropdown({
-		constrainWidth: false
-	});
-	
+	// Load plugins
+	loadPlugins();
 	//Night mode
 	if(localStorage.night) {
 		loadNight();
