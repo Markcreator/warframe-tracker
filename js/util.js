@@ -99,3 +99,14 @@ $("#notifications").click(function() {
 if(localStorage.notifications) {
 	$("#notifications").click();
 }
+
+// Helpers
+
+function escapeHtml(unsafe) {
+	return unsafe
+		 .replace(/&/g, "&amp;")
+		 .replace(/</g, "&lt;")
+		 .replace(/>/g, "&gt;")
+		 .replace(/"/g, "&quot;")
+		 .replace(/'/g, "&#039;");
+}

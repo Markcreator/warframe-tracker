@@ -14,8 +14,12 @@ $(function() {
 		$.getScript("js/data.js", function() {
 			console.log("Data loaded.");
 			
-			$.getScript("js/app.js", function() {
-				console.log("App loaded.");
+			$.getScript("js/timer.js", function() {
+			console.log("Timer loaded.");
+			
+				$.getScript("js/app.js", function() {
+					console.log("App loaded.");
+				});
 			});
 		});
 	});
