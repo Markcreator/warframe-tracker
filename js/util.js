@@ -56,32 +56,37 @@ loadSoundButton(localStorage.sound);
 
 // Night mode
 $("#night").click(function() {
-	if($(this).hasClass("amber")) {
-		$(this).removeClass("amber");
-		$(this).addClass("blue darken-3");
-		$("#nightIcon").text("brightness_3");
-		localStorage.night = true;
-		
-		$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo, footer li").addClass("darken-4").not("li a").addClass("grey-text");
-		$("img").addClass("darkImg");
-		
+	if(!localStorage.night) {	
+		loadNight();
 	} else {
-		$(this).addClass("amber");
-		$(this).removeClass("blue darken-3");
-		$("#nightIcon").text("brightness_5");
-		delete localStorage.night;
-		
-		$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo, footer li").removeClass("darken-4").not("li a").removeClass("grey-text");
-		$("img").removeClass("darkImg");
+		loadDay();
 	}
 });
+function loadNight() {
+	$("#night").removeClass("amber");
+	$("#night").addClass("blue darken-3");
+	$("#nightIcon").text("brightness_3");
+	localStorage.night = true;
+		
+	$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo, footer li").addClass("darken-4").not("li a").addClass("grey-text");
+	$("img").addClass("darkImg");
+}
+function loadDay() {
+	$("#night").addClass("amber");
+	$("#night").removeClass("blue darken-3");
+	$("#nightIcon").text("brightness_5");
+	delete localStorage.night;
+		
+	$("body, .nav-wrapper, .card, a, li").not(".btn, .brand-logo, footer li").removeClass("darken-4").not("li a").removeClass("grey-text");
+	$("img").removeClass("darkImg");
+}
 if(localStorage.night) {
 	$("#night").click();
 }
 
 // Notifications
 $("#notifications").click(function() {
-	if($(this).hasClass("red")) {
+	if(!localStorage.notifications) {
 		Notification.requestPermission().then(function(result) {
 			if(result === "granted") {
 				$("#notifications").removeClass("red");

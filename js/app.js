@@ -150,14 +150,14 @@ function render() {
 		}
 	}
 	
+	// Load dropdowns
 	$('.dropdown-button').dropdown({
 		constrainWidth: false
 	});
 	
 	//Night mode
-	if($("#night").hasClass("blue")) {
-		$(".card, a").not(".btn, .brand-logo").addClass("darken-4").not("li a").addClass("grey-text");
-		$("img").addClass("darkImg");
+	if(localStorage.night) {
+		loadNight();
 	}
 }
 

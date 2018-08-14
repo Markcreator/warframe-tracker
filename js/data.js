@@ -85,7 +85,7 @@ var acolytes = {
 	"AreaCasterAcolyte": {
 		"name": "Misery",
 		disc: false,
-		arrival: 1533754698763,
+		arrival: 0,
 		"mods": [
 			"Focused Defense (25.38%)",
 			"Body Count (8.57%)",
