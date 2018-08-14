@@ -88,24 +88,28 @@ if(localStorage.night) {
 }
 
 // Notifications
-$("#notifications").click(function() {
-	if(!localStorage.notifications) {
-		Notification.requestPermission().then(function(result) {
-			if(result === "granted") {
-				$("#notifications").removeClass("red");
-				$("#notifications").addClass("green");
-				localStorage.notifications = true;
-			}
-		});
+if (!("Notification" in window)) {
+	$("#notifications").remove();
+} else {
+	$("#notifications").click(function() {
+		if(!localStorage.notifications) {
+			Notification.requestPermission().then(function(result) {
+				if(result === "granted") {
+					$("#notifications").removeClass("red");
+					$("#notifications").addClass("green");
+					localStorage.notifications = true;
+				}
+			});
 
-	} else {
-		$(this).addClass("red");
-		$(this).removeClass("green");
-		delete localStorage.notifications;
+		} else {
+			$(this).addClass("red");
+			$(this).removeClass("green");
+			delete localStorage.notifications;
+		}
+	});
+	if(localStorage.notifications) {
+		$("#notifications").click();
 	}
-});
-if(localStorage.notifications) {
-	$("#notifications").click();
 }
 
 // Helpers
