@@ -13,11 +13,16 @@ var worldStateURLs = {
 	"ps4": "http://content.ps4.warframe.com/dynamic/worldState.php",
 	"xbox": "http://content.xb1.warframe.com/dynamic/worldState.php"
 };
-var solNodeURL = "data/solNodes.json";
+var solNodeURL = "dict/node.json";
 
 // Load
 $.getJSON(solNodeURL, function(nodeJSON) {
-	nodes = nodeJSON;
+	for(var i = 0; i < nodeJSON["nodes"].length; i++) {
+		var node = nodeJSON["nodes"][i];
+		nodes[node["node_id"]] = node;
+	}
+	
+	planets = nodeJSON["planets"];
 });
 
 // Helpers
@@ -52,7 +57,8 @@ function getHTTPJSON(url, callback) {
 
 // Data
 var worldState;
-var nodes;
+var nodes = [];
+var planets;
 
 // Acolytes
 var useTestData = false;
@@ -148,23 +154,4 @@ var acolyteOrder = [
 	"Misery",
 	"Torment",
 	"Violence"
-];
-var regions = [
-	"",
-	"",
-	"",
-	"Mars",
-	"Jupiter",
-	"Saturn",
-	"",
-	"Neptune",
-	"Pluto",
-	"Ceres",
-	"Eris",
-	"Sedna",
-	"Europa",
-	"",
-	"",
-	"Phobos",
-	""
 ];

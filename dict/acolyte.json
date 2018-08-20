@@ -1,0 +1,32 @@
+[
+    {
+        "id": "/Lotus/Types/Enemies/Acolytes/StrikerAcolyteAgent",
+        "image_url": "https://vignette.wikia.nocookie.net/warframe/images/e/ec/StrikerAcolyte.png",
+        "name": "angst",
+        "url": "http://warframe.wikia.com/wiki/Angst"
+    },
+    {
+        "id": "/Lotus/Types/Enemies/Acolytes/HeavyAcolyteAgent",
+        "image_url": "https://vignette.wikia.nocookie.net/warframe/images/1/1b/HeavyAcolyte.png",
+        "name": "malice",
+        "url": "http://warframe.wikia.com/wiki/Malice"
+    },
+    {
+        "id": "/Lotus/Types/Enemies/Acolytes/ControlAcolyteAgent",
+        "image_url": "https://vignette.wikia.nocookie.net/warframe/images/3/38/ControlAcolyte.png",
+        "name": "Torment",
+        "url": "http://warframe.wikia.com/wiki/Torment"
+    },
+    {
+        "id": "/Lotus/Types/Enemies/Acolytes/DuellistAcolyteAgent",
+        "image_url": "https://vignette.wikia.nocookie.net/warframe/images/5/56/DuellistAcolyte.png",
+        "name": "violence",
+        "url": "http://warframe.wikia.com/wiki/Violence"
+    },
+    {
+        "id": "/Lotus/Types/Enemies/Acolytes/RogueAcolyteAgent",
+        "image_url": "https://vignette.wikia.nocookie.net/warframe/images/a/a9/RogueAcolyte.png",
+        "name": "mania",
+        "url": "http://warframe.wikia.com/wiki/Mania"
+    }
+]

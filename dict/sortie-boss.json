@@ -1,0 +1,98 @@
+[
+    {
+        "id": "SORTIE_BOSS_TYL",
+        "image_url": "http://vignette1.wikia.nocookie.net/warframe/images/4/49/TylRegor.png",
+        "name": "Tyl Regor",
+        "url": "http://warframe.wikia.com/wiki/Tyl_Regor"
+    },
+    {
+        "id": "SORTIE_BOSS_RAPTOR",
+        "image_url": "http://vignette2.wikia.nocookie.net/warframe/images/6/6c/RaptorTwoMortar.png",
+        "name": "Raptor",
+        "url": "http://warframe.wikia.com/wiki/Raptors"
+    },
+    {
+        "id": "SORTIE_BOSS_INFALAD",
+        "image_url": "http://vignette2.wikia.nocookie.net/warframe/images/d/d7/InfestedAladV2.png",
+        "name": "Mutalist Alad V",
+        "url": "http://warframe.wikia.com/wiki/Mutalist_Alad_V"
+    },
+    {
+        "id": "SORTIE_BOSS_HYENA",
+        "image_url": "http://vignette2.wikia.nocookie.net/warframe/images/c/c2/DEHyenacombine.png",
+        "name": "Hyena Pack",
+        "url": "http://warframe.wikia.com/wiki/Hyena_Pack"
+    },
+    {
+        "id": "SORTIE_BOSS_KELA",
+        "image_url": "http://vignette3.wikia.nocookie.net/warframe/images/b/ba/KelaDeThaym.png",
+        "name": "Kela De Thaym",
+        "url": "http://warframe.wikia.com/wiki/Kela_De_Thaym"
+    },
+    {
+        "id": "SORTIE_BOSS_VOR",
+        "image_url": "http://vignette2.wikia.nocookie.net/warframe/images/5/59/VorPortrait_d.png",
+        "name": "Captain Vor",
+        "url": "http://warframe.wikia.com/wiki/Captain_Vor"
+    },
+    {
+        "id": "SORTIE_BOSS_RUK",
+        "image_url": "http://vignette2.wikia.nocookie.net/warframe/images/a/a6/UyZWd5n.png",
+        "name": "General Sargus Ruk",
+        "url": "http://warframe.wikia.com/wiki/General_Sargas_Ruk"
+    },
+    {
+        "id": "SORTIE_BOSS_HEK",
+        "image_url": "http://vignette2.wikia.nocookie.net/warframe/images/c/c2/VayHek2.png",
+        "name": "Councilor Vay Hek",
+        "url": "http://warframe.wikia.com/wiki/Councilor_Vay_Hek"
+    },
+    {
+        "id": "SORTIE_BOSS_KRIL",
+        "image_url": "http://vignette4.wikia.nocookie.net/warframe/images/5/54/LechKril.png",
+        "name": "Lieutenant Lech Kril",
+        "url": "http://warframe.wikia.com/wiki/Lieutenant_Lech_Kril"
+    },
+    {
+        "id": "SORTIE_BOSS_JACKAL",
+        "image_url": "http://vignette1.wikia.nocookie.net/warframe/images/4/47/JackalDE2.png",
+        "name": "Jackal",
+        "url": "http://warframe.wikia.com/wiki/Jackal"
+    },
+    {
+        "id": "SORTIE_BOSS_ALAD",
+        "image_url": "http://vignette3.wikia.nocookie.net/warframe/images/6/6c/DEAlad_VDuo.png",
+        "name": "Alad V",
+        "url": "http://warframe.wikia.com/wiki/Alad_V"
+    },
+    {
+        "id": "SORTIE_BOSS_AMBULAS",
+        "image_url": "https://vignette.wikia.nocookie.net/warframe/images/e/e1/CodexAmbulas.png",
+        "name": "Ambulas",
+        "url": "http://warframe.wikia.com/wiki/Ambulas"
+    },
+    {
+        "id": "SORTIE_BOSS_PHORID",
+        "image_url": "http://vignette2.wikia.nocookie.net/warframe/images/5/55/PhoridDE2.png",
+        "name": "Phorid",
+        "url": "http://warframe.wikia.com/wiki/Phorid"
+    },
+    {
+        "id": "SORTIE_BOSS_LEPHANTIS",
+        "image_url": "http://vignette4.wikia.nocookie.net/warframe/images/3/3d/GolemFullAvatar.png",
+        "name": "Lephantis",
+        "url": "http://warframe.wikia.com/wiki/Lephantis"
+    },
+    {
+        "id": "SORTIE_BOSS_NEF",
+        "image_url": "http://vignette1.wikia.nocookie.net/warframe/images/6/61/NefAnyo.png",
+        "name": "Nef Anyo",
+        "url": "http://warframe.wikia.com/wiki/Nef_Anyo"
+    },
+    {
+        "id": "SORTIE_BOSS_CORRUPTED_VOR",
+        "image_url": "https://vignette.wikia.nocookie.net/warframe/images/e/ea/VorTwo.png",
+        "name": "Corrupted Vor",
+        "url": "http://warframe.wikia.com/wiki/Corrupted_Vor"
+    }
+]

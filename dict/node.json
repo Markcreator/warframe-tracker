@@ -1,0 +1,1771 @@
+{
+    "nodes": [
+        {
+            "name": "neruda",
+            "node_id": "SolNode221",
+            "planet_id": 0
+        },
+        {
+            "name": "eminescu",
+            "node_id": "SolNode222",
+            "planet_id": 0
+        },
+        {
+            "name": "verdi",
+            "node_id": "solnode227",
+            "planet_id": 0
+        },
+        {
+            "name": "tethra",
+            "node_id": "EventNode1",
+            "planet_id": 3
+        },
+        {
+            "name": "hyperion",
+            "node_id": "SolNode110",
+            "planet_id": 11
+        },
+        {
+            "name": "epimetheus",
+            "node_id": "SolNode7",
+            "planet_id": 11
+        },
+        {
+            "name": "mimas",
+            "node_id": "SolNode44",
+            "planet_id": 11
+        },
+        {
+            "name": "iapetus",
+            "node_id": "SolNode91",
+            "planet_id": 11
+        },
+        {
+            "name": "janus",
+            "node_id": "SolNode47",
+            "planet_id": 11
+        },
+        {
+            "name": "phoebe",
+            "node_id": "SolNode80",
+            "planet_id": 11
+        },
+        {
+            "name": "pallene",
+            "node_id": "SolNode37",
+            "planet_id": 11
+        },
+        {
+            "name": "aegaeon",
+            "node_id": "SolNode86",
+            "planet_id": 11
+        },
+        {
+            "name": "methone",
+            "node_id": "SolNode55",
+            "planet_id": 11
+        },
+        {
+            "name": "oberon",
+            "node_id": "SolNode29",
+            "planet_id": 2
+        },
+        {
+            "name": "cordelia",
+            "node_id": "SolNode3",
+            "planet_id": 2
+        },
+        {
+            "name": "miranda",
+            "node_id": "SolNode90",
+            "planet_id": 2
+        },
+        {
+            "name": "portia",
+            "node_id": "SolNode52",
+            "planet_id": 2
+        },
+        {
+            "name": "juliet",
+            "node_id": "SolNode111",
+            "planet_id": 2
+        },
+        {
+            "name": "cupid",
+            "node_id": "SolNode77",
+            "planet_id": 2
+        },
+        {
+            "name": "bianca",
+            "node_id": "SolNode13",
+            "planet_id": 2
+        },
+        {
+            "name": "prospero",
+            "node_id": "SolNode40",
+            "planet_id": 2
+        },
+        {
+            "name": "perdita",
+            "node_id": "SolNode5",
+            "planet_id": 2
+        },
+        {
+            "name": "mab",
+            "node_id": "SolNode116",
+            "planet_id": 2
+        },
+        {
+            "name": "setebos",
+            "node_id": "SolNode112",
+            "planet_id": 2
+        },
+        {
+            "name": "trinculo",
+            "node_id": "SolNode124",
+            "planet_id": 2
+        },
+        {
+            "name": "thalassa",
+            "node_id": "SolNode95",
+            "planet_id": 12
+        },
+        {
+            "name": "naiad",
+            "node_id": "SolNode117",
+            "planet_id": 12
+        },
+        {
+            "name": "halimede",
+            "node_id": "SolNode120",
+            "planet_id": 12
+        },
+        {
+            "name": "charon",
+            "node_id": "SolNode92",
+            "planet_id": 9
+        },
+        {
+            "name": "nix",
+            "node_id": "SolNode8",
+            "planet_id": 9
+        },
+        {
+            "name": "cyath",
+            "node_id": "SolNode156",
+            "planet_id": 8
+        },
+        {
+            "name": "cosis",
+            "node_id": "SolNode155",
+            "planet_id": 8
+        },
+        {
+            "name": "candiru",
+            "node_id": "SolNode154",
+            "planet_id": 8
+        },
+        {
+            "name": "ascar",
+            "node_id": "SolNode152",
+            "planet_id": 8
+        },
+        {
+            "name": "giardia",
+            "node_id": "SolNode157",
+            "planet_id": 8
+        },
+        {
+            "name": "acanth",
+            "node_id": "SolNode151",
+            "planet_id": 8
+        },
+        {
+            "name": "jordas golem assassinate",
+            "node_id": "SolNode701",
+            "planet_id": 8
+        },
+        {
+            "name": "mutualist alad v assassinate",
+            "node_id": "SolNode705",
+            "planet_id": 8
+        },
+        {
+            "name": "lepis",
+            "node_id": "SolNode159",
+            "planet_id": 8
+        },
+        {
+            "name": "hymeno",
+            "node_id": "SolNode161",
+            "planet_id": 8
+        },
+        {
+            "name": "gnathos",
+            "node_id": "SolNode158",
+            "planet_id": 8
+        },
+        {
+            "name": "histo",
+            "node_id": "SolNode160",
+            "planet_id": 8
+        },
+        {
+            "name": "ixodes",
+            "node_id": "SolNode163",
+            "planet_id": 8
+        },
+        {
+            "name": "phalan",
+            "node_id": "SolNode168",
+            "planet_id": 8
+        },
+        {
+            "name": "ranova",
+            "node_id": "SolNode170",
+            "planet_id": 8
+        },
+        {
+            "name": "psoro",
+            "node_id": "SolNode169",
+            "planet_id": 8
+        },
+        {
+            "name": "sparga",
+            "node_id": "SolNode174",
+            "planet_id": 8
+        },
+        {
+            "name": "viver",
+            "node_id": "SolNode176",
+            "planet_id": 8
+        },
+        {
+            "name": "camenae",
+            "node_id": "SolNode182",
+            "planet_id": 6
+        },
+        {
+            "name": "hyosube",
+            "node_id": "SolNode178",
+            "planet_id": 6
+        },
+        {
+            "name": "undine",
+            "node_id": "SolNode180",
+            "planet_id": 6
+        },
+        {
+            "name": "jengu",
+            "node_id": "SolNode179",
+            "planet_id": 6
+        },
+        {
+            "name": "ponaturi",
+            "node_id": "SolNode194",
+            "planet_id": 6
+        },
+        {
+            "name": "graeae",
+            "node_id": "SolNode197",
+            "planet_id": 6
+        },
+        {
+            "name": "scylla",
+            "node_id": "SolNode198",
+            "planet_id": 6
+        },
+        {
+            "name": "tiamat",
+            "node_id": "SolNode201",
+            "planet_id": 6
+        },
+        {
+            "name": "yemaja",
+            "node_id": "SolNode202",
+            "planet_id": 6
+        },
+        {
+            "name": "veles",
+            "node_id": "SolNode200",
+            "planet_id": 6
+        },
+        {
+            "name": "capture",
+            "node_id": "SolNode706",
+            "planet_id": 15
+        },
+        {
+            "name": "defense",
+            "node_id": "SolNode707",
+            "planet_id": 15
+        },
+        {
+            "name": "exterminate",
+            "node_id": "SolNode708",
+            "planet_id": 15
+        },
+        {
+            "name": "sabotage",
+            "node_id": "SolNode710",
+            "planet_id": 15
+        },
+        {
+            "name": "survival",
+            "node_id": "SolNode711",
+            "planet_id": 15
+        },
+        {
+            "name": "assassinate",
+            "node_id": "SolNode712",
+            "planet_id": 15
+        },
+        {
+            "name": "mobile defense",
+            "node_id": "SolNode709",
+            "planet_id": 15
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "regna",
+            "node_id": "SolNode48",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "laomedeia",
+            "node_id": "SolNode118",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "thebe",
+            "node_id": "SolNode10",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "kiste",
+            "node_id": "SolNode140",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "tiwaz",
+            "node_id": "SolNode403",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_RETRIEVAL",
+            "name": "marid",
+            "node_id": "SolNode191",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "cypress",
+            "node_id": "SolNode56",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "gabii",
+            "node_id": "ClanNode23",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "ose",
+            "node_id": "SolNode211",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "elara",
+            "node_id": "SolNode100",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "xini",
+            "node_id": "SolNode172",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "hellas",
+            "node_id": "SolNode58",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "cytherean",
+            "node_id": "SolNode23",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "nuova",
+            "node_id": "SolNode137",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "solium",
+            "node_id": "SolNode173",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "vesper",
+            "node_id": "SolNode71",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "alator",
+            "node_id": "SolNode106",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "berehynia",
+            "node_id": "SolNode185",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "triton",
+            "node_id": "SolNode78",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "umbriel",
+            "node_id": "SolNode64",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "ares",
+            "node_id": "SolNode113",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "venera",
+            "node_id": "SolNode107",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "proteus",
+            "node_id": "SolNode17",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "lex",
+            "node_id": "SolNode139",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "amarna",
+            "node_id": "ClanNode14",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "dione",
+            "node_id": "SolNode67",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "larzac",
+            "node_id": "ClanNode6",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "tamu",
+            "node_id": "SolNode745",
+            "planet_id": 17
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "seimeni",
+            "node_id": "ClanNode22",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "mantle",
+            "node_id": "SolNode63",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "anthe",
+            "node_id": "SolNode31",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "zeipel",
+            "node_id": "SolNode307",
+            "planet_id": 16
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "tessera",
+            "node_id": "SolNode22",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "telesto",
+            "node_id": "SolNode20",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_ARENA",
+            "name": "vodyanoi",
+            "node_id": "SolNode183",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "rusalka",
+            "node_id": "SolNode184",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "copernicus",
+            "node_id": "SolNode304",
+            "planet_id": 16
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "numa",
+            "node_id": "SolNode50",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "everest",
+            "node_id": "SolNode39",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "romula",
+            "node_id": "ClanNode0",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_ARENA",
+            "name": "yam",
+            "node_id": "SolNode199",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "shklovsky",
+            "node_id": "SettlementNode14",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_EXCAVATE",
+            "name": "valefor",
+            "node_id": "SolNode216",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "ariel",
+            "node_id": "SolNode33",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "titania",
+            "node_id": "SolNode105",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "st\u00f6fler",
+            "node_id": "SolNode305",
+            "planet_id": 16
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "unda",
+            "node_id": "SolNode66",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_ASSAULT",
+            "name": "koro",
+            "node_id": "SolNode741",
+            "planet_id": 17
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "olympus",
+            "node_id": "SolNode30",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "coba",
+            "node_id": "ClanNode2",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "metis",
+            "node_id": "SolNode126",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "oceanum",
+            "node_id": "SolNode102",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "calypso",
+            "node_id": "SolNode82",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "akkad",
+            "node_id": "ClanNode18",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "mariana",
+            "node_id": "SolNode89",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "rotuma",
+            "node_id": "SolNode743",
+            "planet_id": 17
+        },
+        {
+            "mission_type": "MT_EXCAVATE",
+            "name": "cholistan",
+            "node_id": "ClanNode7",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "narcissus",
+            "node_id": "SolNode21",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "saxis",
+            "node_id": "SolNode171",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "naga",
+            "node_id": "SolNode189",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "isos",
+            "node_id": "SolNode162",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "ani",
+            "node_id": "SolNode405",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "themisto",
+            "node_id": "SolNode53",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "larissa",
+            "node_id": "SolNode49",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "gradivus",
+            "node_id": "SolNode65",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_RETRIEVAL",
+            "name": "ludi",
+            "node_id": "SolNode138",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "rhea",
+            "node_id": "SolNode18",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "lith",
+            "node_id": "SolNode26",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "ophelia",
+            "node_id": "SolNode69",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "monolith",
+            "node_id": "SettlementNode12",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "pantheon",
+            "node_id": "SolNode226",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "adrastea",
+            "node_id": "SolNode88",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "montes",
+            "node_id": "SolNode902",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "mithra",
+            "node_id": "SolNode412",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "tethys",
+            "node_id": "SolNode32",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "erpo",
+            "node_id": "SolNode903",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "thon",
+            "node_id": "SolNode135",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "naamah",
+            "node_id": "SolNode210",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "gulliver",
+            "node_id": "SettlementNode11",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "merrow",
+            "node_id": "SolNode193",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "eurasia",
+            "node_id": "SolNode59",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "pago",
+            "node_id": "SolNode747",
+            "planet_id": 17
+        },
+        {
+            "mission_type": "MT_HIVE",
+            "name": "naeglar",
+            "node_id": "SolNode175",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "kala-azar",
+            "node_id": "SolNode164",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "v prime",
+            "node_id": "SolNode123",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "io",
+            "node_id": "SolNode125",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "pacific",
+            "node_id": "SolNode15",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "apollodorus",
+            "node_id": "SolNode94",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "linea",
+            "node_id": "SolNode109",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "teshub",
+            "node_id": "SolNode400",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "cameria",
+            "node_id": "ClanNode5",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "titan",
+            "node_id": "SolNode96",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "oro",
+            "node_id": "SolNode24",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "cambria",
+            "node_id": "SolNode79",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "exta",
+            "node_id": "SolNode144",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "brugia",
+            "node_id": "SolNode153",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "vallis",
+            "node_id": "SolNode68",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "oxomoco",
+            "node_id": "SolNode407",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "kappa",
+            "node_id": "SolNode177",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "aphrodite",
+            "node_id": "SolNode2",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "sechura",
+            "node_id": "ClanNode24",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "kadesh",
+            "node_id": "ClanNode8",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "armaros",
+            "node_id": "SolNode204",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "sinai",
+            "node_id": "ClanNode4",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "elion",
+            "node_id": "SolNode12",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "outer terminus",
+            "node_id": "SolNode72",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "plato",
+            "node_id": "SolNode300",
+            "planet_id": 16
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "rosalind",
+            "node_id": "SolNode9",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "adaro",
+            "node_id": "SolNode181",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "odin",
+            "node_id": "SolNode224",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "tycho",
+            "node_id": "SolNode302",
+            "planet_id": 16
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "desdemona",
+            "node_id": "SolNode98",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "terminus",
+            "node_id": "SolNode103",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "mot",
+            "node_id": "SolNode409",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "hydra",
+            "node_id": "SolNode76",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_EXCAVATE",
+            "name": "hieracon",
+            "node_id": "ClanNode25",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "kelpie",
+            "node_id": "SolNode188",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "nimus",
+            "node_id": "SolNode166",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "m prime",
+            "node_id": "SolNode28",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "hydron",
+            "node_id": "SolNode195",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "ker",
+            "node_id": "SolNode141",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "carme",
+            "node_id": "SolNode74",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "sangeru",
+            "node_id": "ClanNode15",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "ananke",
+            "node_id": "SolNode73",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "keeler",
+            "node_id": "SolNode93",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "galilea",
+            "node_id": "SolNode905",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "charybdis",
+            "node_id": "SolNode196",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "gaia",
+            "node_id": "SolNode85",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "suisei",
+            "node_id": "SolNode225",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_EXCAVATE",
+            "name": "cervantes",
+            "node_id": "SolNode75",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "tikoloshe",
+            "node_id": "SolNode192",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "boethius",
+            "node_id": "SolNode223",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "malva",
+            "node_id": "ClanNode1",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "roche",
+            "node_id": "SettlementNode1",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "iliad",
+            "node_id": "SettlementNode20",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "kokabiel",
+            "node_id": "SolNode220",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_RETRIEVAL",
+            "name": "nereid",
+            "node_id": "SolNode84",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_EXCAVATE",
+            "name": "despina",
+            "node_id": "SolNode6",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "caloris",
+            "node_id": "SolNode119",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "pavlov",
+            "node_id": "SolNode306",
+            "planet_id": 16
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "cressida",
+            "node_id": "SolNode83",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "lares",
+            "node_id": "SolNode130",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "puck",
+            "node_id": "SolNode114",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "zeugma",
+            "node_id": "ClanNode11",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "callisto",
+            "node_id": "SolNode25",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "phithale",
+            "node_id": "SolNode186",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "kelashin",
+            "node_id": "ClanNode21",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "paimon",
+            "node_id": "SolNode212",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "sao",
+            "node_id": "SolNode57",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "acheron",
+            "node_id": "SolNode4",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "zabala",
+            "node_id": "ClanNode19",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "garus",
+            "node_id": "SolNode748",
+            "planet_id": 17
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "ukko",
+            "node_id": "SolNode406",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "taranis",
+            "node_id": "SolNode402",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "grimaldi",
+            "node_id": "SolNode301",
+            "planet_id": 16
+        },
+        {
+            "mission_type": "MT_RETRIEVAL",
+            "name": "tharsis",
+            "node_id": "SolNode11",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "nabuk",
+            "node_id": "SolNode742",
+            "planet_id": 17
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "cerberus",
+            "node_id": "SolNode43",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "spear",
+            "node_id": "SolNode46",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "helene",
+            "node_id": "SolNode42",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "casta",
+            "node_id": "SolNode149",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "carpo",
+            "node_id": "SolNode121",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "wahiba",
+            "node_id": "ClanNode9",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "orias",
+            "node_id": "SolNode217",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "palus",
+            "node_id": "SolNode81",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_RETRIEVAL",
+            "name": "sorath",
+            "node_id": "SolNode214",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "assur",
+            "node_id": "ClanNode17",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "taveuni",
+            "node_id": "SolNode744",
+            "planet_id": 17
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "psamathe",
+            "node_id": "SolNode127",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "tolstoj",
+            "node_id": "SolNode108",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_EXCAVATE",
+            "name": "tikal",
+            "node_id": "ClanNode3",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "hades",
+            "node_id": "SolNode51",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "oestrus",
+            "node_id": "SolNode167",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "abaddon",
+            "node_id": "SolNode203",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "cinxia",
+            "node_id": "SolNode147",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "sharpless",
+            "node_id": "SettlementNode15",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "cassini",
+            "node_id": "SolNode70",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_EXCAVATE",
+            "name": "kiliken",
+            "node_id": "SolNode101",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "draco",
+            "node_id": "SolNode146",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "valac",
+            "node_id": "SolNode215",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "neso",
+            "node_id": "SolNode62",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "piscinas",
+            "node_id": "ClanNode13",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "ur",
+            "node_id": "ClanNode16",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "salacia",
+            "node_id": "SolNode908",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "stickney",
+            "node_id": "SettlementNode3",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "pallas",
+            "node_id": "SolNode131",
+            "planet_id": 4
+        },
+        {
+            "mission_type": "MT_RACE",
+            "name": "kepler",
+            "node_id": "SettlementNode10",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "arval",
+            "node_id": "SolNode41",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "caliban",
+            "node_id": "SolNode60",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_ARENA",
+            "name": "nakki",
+            "node_id": "SolNode190",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "enceladus",
+            "node_id": "SolNode19",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "skyresh",
+            "node_id": "SettlementNode2",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "war",
+            "node_id": "SolNode99",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "e gate",
+            "node_id": "SolNode128",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "ultor",
+            "node_id": "SolNode14",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "sycorax",
+            "node_id": "SolNode34",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "syrtis",
+            "node_id": "SolNode904",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "belenus",
+            "node_id": "SolNode408",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "e prime",
+            "node_id": "SolNode27",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "ara",
+            "node_id": "SolNode45",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "hepit",
+            "node_id": "SolNode401",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "minthe",
+            "node_id": "SolNode38",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_CAPTURE",
+            "name": "galatea",
+            "node_id": "SolNode1",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "ishtar",
+            "node_id": "SolNode61",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "aten",
+            "node_id": "SolNode410",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "marduk",
+            "node_id": "SolNode411",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "amelthea",
+            "node_id": "SolNode97",
+            "planet_id": 7
+        },
+        {
+            "mission_type": "MT_TERRITORY",
+            "name": "caelus",
+            "node_id": "SolNode907",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_ASSASSINATION",
+            "name": "fossa",
+            "node_id": "SolNode104",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_SABOTAGE",
+            "name": "striborg",
+            "node_id": "SolNode404",
+            "planet_id": 14
+        },
+        {
+            "mission_type": "MT_SURVIVAL",
+            "name": "selkie",
+            "node_id": "SolNode187",
+            "planet_id": 6
+        },
+        {
+            "mission_type": "MT_Evacuation",
+            "name": "memphis",
+            "node_id": "ClanNode10",
+            "planet_id": 13
+        },
+        {
+            "mission_type": "MT_EXTERMINATION",
+            "name": "baal",
+            "node_id": "SolNode205",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_MOBILE_DEFENSE",
+            "name": "morax",
+            "node_id": "SolNode209",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_Evacuation",
+            "name": "caracol",
+            "node_id": "ClanNode12",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_Evacuation",
+            "name": "yursa",
+            "node_id": "ClanNode20",
+            "planet_id": 12
+        },
+        {
+            "mission_type": "MT_RELAY",
+            "name": "orcus relay",
+            "node_id": "PlutoHUB",
+            "planet_id": 9
+        },
+        {
+            "mission_type": "MT_RESCUE",
+            "name": "martialis",
+            "node_id": "SolNode36",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_EXCAVATE",
+            "name": "augustus",
+            "node_id": "SolNode16",
+            "planet_id": 1
+        },
+        {
+            "mission_type": "MT_DEFENSE",
+            "name": "stephano",
+            "node_id": "SolNode122",
+            "planet_id": 2
+        },
+        {
+            "mission_type": "MT_LANDSCAPE",
+            "name": "plains of eidolon",
+            "node_id": "SolNode228",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_RELAY",
+            "name": "kuiper relay",
+            "node_id": "ErisHUB",
+            "planet_id": 8
+        },
+        {
+            "mission_type": "MT_RELAY",
+            "name": "leonov",
+            "node_id": "EuropaHUB",
+            "planet_id": 10
+        },
+        {
+            "mission_type": "MT_RELAY",
+            "name": "larunda relay",
+            "node_id": "MercuryHUB",
+            "planet_id": 0
+        },
+        {
+            "mission_type": "MT_RELAY",
+            "name": "vesper relay",
+            "node_id": "VenusHUB",
+            "planet_id": 3
+        },
+        {
+            "mission_type": "MT_RELAY",
+            "name": "kronia relay",
+            "node_id": "SaturnHUB",
+            "planet_id": 11
+        },
+        {
+            "mission_type": "MT_RELAY",
+            "name": "strata relay",
+            "node_id": "EarthHUB",
+            "planet_id": 5
+        },
+        {
+            "mission_type": "MT_INTEL",
+            "name": "bode",
+            "node_id": "SolNode132",
+            "planet_id": 4
+        }
+    ],
+    "planets": [
+        {
+            "name": "Mercury",
+            "planet_id": 0
+        },
+        {
+            "name": "Mars",
+            "planet_id": 1
+        },
+        {
+            "name": "Uranus",
+            "planet_id": 2
+        },
+        {
+            "name": "Venus",
+            "planet_id": 3
+        },
+        {
+            "name": "ceres",
+            "planet_id": 4
+        },
+        {
+            "name": "earth",
+            "planet_id": 5
+        },
+        {
+            "name": "sedna",
+            "planet_id": 6
+        },
+        {
+            "name": "jupiter",
+            "planet_id": 7
+        },
+        {
+            "name": "eris",
+            "planet_id": 8
+        },
+        {
+            "name": "pluto",
+            "planet_id": 9
+        },
+        {
+            "name": "europa",
+            "planet_id": 10
+        },
+        {
+            "name": "saturn",
+            "planet_id": 11
+        },
+        {
+            "name": "neptune",
+            "planet_id": 12
+        },
+        {
+            "name": "phobos",
+            "planet_id": 13
+        },
+        {
+            "name": "void",
+            "planet_id": 14
+        },
+        {
+            "name": "derelict",
+            "planet_id": 15
+        },
+        {
+            "name": "moon",
+            "planet_id": 16
+        },
+        {
+            "name": "kuva fortress",
+            "planet_id": 17
+        }
+    ]
+}

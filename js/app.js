@@ -87,7 +87,7 @@ function render() {
 	for(var i = 0; i < alertList.length; i++) {
 		var ale = alertList[i];
 		
-		var location = nodes[ale.MissionInfo.location].value;
+		var location = nodes[ale.MissionInfo.location].name + " (" + planets[nodes[ale.MissionInfo.location].planet_id].name + ")";
 		var level = ale.MissionInfo.minEnemyLevel + "-" + ale.MissionInfo.maxEnemyLevel;
 		var type = ale.MissionInfo.missionType;
 		type = type.substring(type.indexOf("_")+1);
