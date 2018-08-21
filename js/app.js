@@ -61,6 +61,7 @@ function render() {
 	}
 	
 	if(acolyteList.length == 0) {
+		$("#acolytes").hide();
 		var output = [];
 		output.push('<div class="card grey lighten-4 hoverable">');
 		output.push('	<div class="card-content flow-text green-text">');
@@ -71,6 +72,7 @@ function render() {
 		$("#acolytes .content").append(output.join(""));
 		
 	} else {
+		$("#acolytes").show();
 		for(var x = 0; x < acolyteOrder.length; x++) {
 			var name = acolyteOrder[x];
 			
@@ -87,19 +89,18 @@ function render() {
 	for(var i = 0; i < alertList.length; i++) {
 		var ale = alertList[i];
 		
-		var location = nodes[ale.MissionInfo.location].name + " (" + planets[nodes[ale.MissionInfo.location].planet_id].name + ")";
+		var node = nodes[ale.MissionInfo.location];
+		var location = node.name.capitalize() + " (" + planets[node.planet_id].name.capitalize() + ")";
 		var level = ale.MissionInfo.minEnemyLevel + "-" + ale.MissionInfo.maxEnemyLevel;
-		var type = ale.MissionInfo.missionType;
-		type = type.substring(type.indexOf("_")+1);
-		var faction = ale.MissionInfo.faction;
-		faction = faction.substring(faction.indexOf("_")+1);
+		var type = missions[ale.MissionInfo.missionType].capitalize();
+		var faction = factions[ale.MissionInfo.faction];
 		rewards = [];
 		rewards.push(ale.MissionInfo.missionReward.credits + " Credits");
-		var items = ale.MissionInfo.missionReward.items;
-		if(items) {
-			for(var y = 0; y < items.length; y++) {
-				var item = items[y];
-				var name = item.split("/")[item.split("/").length-1];
+		var itemList = ale.MissionInfo.missionReward.items;
+		if(itemList) {
+			for(var y = 0; y < itemList.length; y++) {
+				var item = itemList[y];
+				var name = items[item];
 				rewards.push(name);
 			}
 		}

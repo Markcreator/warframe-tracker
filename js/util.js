@@ -147,5 +147,9 @@ function escapeHtml(unsafe) {
 		 .replace(/'/g, "&#039;");
 }
 
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 function getId(a) { return a._id.$oid; }
 function getTime(a) { return new Date(parseInt(a.$date.$numberLong)); }

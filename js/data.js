@@ -13,16 +13,35 @@ var worldStateURLs = {
 	"ps4": "http://content.ps4.warframe.com/dynamic/worldState.php",
 	"xbox": "http://content.xb1.warframe.com/dynamic/worldState.php"
 };
-var solNodeURL = "dict/node.json";
+var nodeURL = "dict/node.json";
+var factionURL = "dict/faction.json";
+var itemURL = "dict/item.json";
+var missionURL = "dict/mission.json";
+
+var worldState;
+var nodes = [];
+var planets;
+var factions;
+var items;
+var missions;
 
 // Load
-$.getJSON(solNodeURL, function(nodeJSON) {
-	for(var i = 0; i < nodeJSON["nodes"].length; i++) {
-		var node = nodeJSON["nodes"][i];
+$.getJSON(nodeURL, function(json) {
+	for(var i = 0; i < json["nodes"].length; i++) {
+		var node = json["nodes"][i];
 		nodes[node["node_id"]] = node;
 	}
 	
-	planets = nodeJSON["planets"];
+	planets = json["planets"];
+});
+$.getJSON(factionURL, function(json) {
+	factions = json;
+});
+$.getJSON(itemURL, function(json) {
+	items = json;
+});
+$.getJSON(missionURL, function(json) {
+	missions = json;
 });
 
 // Helpers
@@ -54,11 +73,6 @@ function getHTTPJSON(url, callback) {
 		callback(JSON.parse(data.contents));
 	});
 }
-
-// Data
-var worldState;
-var nodes = [];
-var planets;
 
 // Acolytes
 var useTestData = false;
