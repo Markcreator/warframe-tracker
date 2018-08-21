@@ -4,7 +4,8 @@ var tabs = [
 	"Invasions",
 	"Syndicates",
 	"Void Fissures",
-	"Sorties"
+	"Sorties",
+	"Void Trader"
 ];
 
 // URLs
