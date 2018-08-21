@@ -83,8 +83,8 @@ function loadDay() {
 	$("body, .nav-wrapper, .card, a, li, .collapsible-header").not(".btn, .brand-logo, footer li").removeClass("darken-4").not("li a").removeClass("grey-text");
 	$("img").removeClass("darkImg");
 }
-if(localStorage.night) {
-	$("#night").click();
+if(localStorage.night) {	
+	loadNight();
 }
 
 // Notifications
